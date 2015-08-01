@@ -34,7 +34,7 @@ var obj = {
 
 var res = tplobj(tpl, obj);
 
-var ffmpeg = spawn(res.command, res.args, res.options)
+var ffmpeg = spawn(res.command, res.args, res.options);
 ...
 ```
 
