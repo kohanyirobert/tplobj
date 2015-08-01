@@ -1,4 +1,4 @@
-# tplobj
+# tplobj [![Build Status][1]][2]
 
 ## Example
 
@@ -29,3 +29,6 @@
 
     var ffmpeg = spawn(res.command, res.args, res.options)
     ...
+
+[1]: https://travis-ci.org/kohanyirobert/tplobj.svg?branch=master
+[2]: https://github.com/kohanyirobert/tplobj
