@@ -1,5 +1,11 @@
 # tplobj [![Build Status][1]][2]
 
+## Install
+
+```
+npm install tplobj
+```
+
 ## Example
 
 ```javascript
