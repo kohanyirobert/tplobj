@@ -4,7 +4,7 @@
 
 ```javascript
 var spawn = require("child_process").spawn;
-var tplojb = require("./tplobj")("${", "}");
+var tplojb = require("tplobj")("${", "}");
 
 var tpl = {
   command: "ffmpeg",
