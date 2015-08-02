@@ -1,6 +1,4 @@
 module.exports = function(left, right) {
-  left = left || "${";
-  right = right || "}";
   return function(tpl, obj) {
     var str = JSON.stringify(tpl);
     for (var key in obj) {
